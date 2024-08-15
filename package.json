@@ -1,0 +1,27 @@
+{
+  "name": "recipebook",
+  "version": "1.0.0",
+  "description": "This is a web app used to store recipe for cooking",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nhdao/recipeBook.git"
+  },
+  "author": "nhdao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nhdao/recipeBook/issues"
+  },
+  "homepage": "https://github.com/nhdao/recipeBook#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "pg": "^8.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
